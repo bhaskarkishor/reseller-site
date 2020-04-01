@@ -5,6 +5,7 @@ let ProductSchema = new Schema({
     name: {type: String, required: true, max: 100},
     price: {type: Number, required: true},
     description: {type: String, requied: false, max: 500},
+    image: {type: String, required:false, max:1000},
 });
 
 

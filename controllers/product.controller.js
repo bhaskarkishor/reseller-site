@@ -10,7 +10,8 @@ exports.product_create = function (req, res) {
         {
             name: req.body.name,
             price: req.body.price,
-            description: req.body.description
+            description: req.body.description,
+            image: req.body.url
         }
     );
 
@@ -18,7 +19,7 @@ exports.product_create = function (req, res) {
         if (err) {
             return next(err);
         }
-        res.send('Product Created successfully')
+        res.send('Product created');
     })
 };
 exports.product_details = function (req, res) {
