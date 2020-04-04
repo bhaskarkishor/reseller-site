@@ -7,5 +7,7 @@ Express.js in node and front end uses javascript templating syntax. The database
 To check the website, you can clone the repo and install all dependencies.  
 
 `npm install`
-Then launch the server using server.js assuming you already have node configured.
+
+Then launch the server using server.js assuming you already have node configured.  
+
 `node server.js`
